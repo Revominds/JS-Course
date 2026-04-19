@@ -1,0 +1,109 @@
+# INTRODUCTION TO JAVASCRIPT
+
+## Objectives
+
+| **No**   | **Basic Features**              | **Advanced Features**           |
+| -------- | ------------------------------- | ------------------------------- |
+| 1        | JavaScript Basics               | Modules                         |
+| -------- | ------------------------------- | ------------------------------- |
+| 2        | Numbers & Math                  | Testing                         |
+| -------- | ------------------------------- | ------------------------------- |
+| 3        | Strings                         | Objected-Oriented               |
+| -------- | ------------------------------- | ------------------------------- |
+| 4        | Variables                       | Backend                         |
+| -------- | ------------------------------- | ------------------------------- |
+| 5        | Booleans, If-Statements         | Callbacks                       |
+| -------- | ------------------------------- | ------------------------------- |
+| 6        | Functions                       | Promises                        |
+| -------- | ------------------------------- | ------------------------------- |
+| 7        | Objects & DOM                   | Async await                     |
+| -------- | ------------------------------- | ------------------------------- |
+| 8        | Arrays & Loops                  | -                               |
+| -------- | ------------------------------- | ------------------------------- |
+| 8        | JS w/ other Technologies such   |                                 |
+|          | as HTML & CSS                   | -                               |
+| -------- | ------------------------------- | ------------------------------- |
+
+## JAVASCRIPT BASICS
+
+### What is JavaScript?
+
+`JavaScript` is a technology that we use to `create dynamic & interactive websites.` The three technologies we used to create websites
+
+- HTML. This creates the content of the website
+- CSS. Changes the appearance of the website
+- JavaScript. Makes the website interactive
+
+```
+   alert('hello'); // this creates a pop up w/ the text hello inside
+
+   console.log("------ Math -------\n");
+
+   const add = 2 + 2;
+   const minus = 12 - 2;
+   console.log("1. The total of 2 and 2 : ", add);
+   console.log("2. The total of 12 minus 2 : ", minus);
+
+   document.body.innerHTML = "Hello JavaScript Fam!"; //modifies the webpage
+```
+
+#### Lesson 1 Exercises - JS Basics
+
+1. Use alert() to display 'Good morning!' in a popup.
+2. Display your name in a popup.
+3. Using math, calculate 10 + 5 in the console.
+4. Calculate 20 - 5 in the console.
+5. Calculate 2 + 2 - 5 in the console.
+
+```
+  alert('Good morning!'); //q1.
+  alert('Good morning! Revominds'); //q2
+
+  var add = 10 + 5;
+  console.log(add); //q3.
+
+  var minus = 20 - 5;
+  console.log(minus); //q4
+
+  var compute = 2 + 2 - 5;
+  console.log(compute); //q5
+```
+
+#### Challenge Yourself
+
+1. You ordered a T-shirt for $10, socks for $8, and dinner plates for $20. Use JavaScript to calculate the total cost of your order.
+2. You bank account has $100, you spend $20 on lunch, $50 on dinner, and earn $200 from ur job. Calculate how much money you have.
+3. Use `document.body.innerHTML` to make the web page blank.
+
+```
+   //challenge 1
+
+   let shirt = 10;
+   let socks = 8;
+   let plates = 20;
+   let amount;
+
+   amount = shirt + socks + plates;
+   console.log(amount);
+
+   //challenge 2
+
+   let balance = 100;
+   let lunch = 20;
+   let dinner = 50;
+   let income = 200;
+   const current;
+
+   current = balance - lunch - dinner + income;
+   console.log(current);
+
+   //challenge 3
+
+   document.body.innerHTML = "";
+
+```
+
+## NOTES
+
+- A **code** is a set of `instructions` given to a computer. The languages used to write code are termed as **Programming languages** and there are many of them out there.
+- **Syntax** are the rules we have to follow when using a `programming language`.
