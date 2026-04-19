@@ -2,27 +2,18 @@
 
 ## Objectives
 
-| **No**   | **Basic Features**              | **Advanced Features**           |
-| -------- | ------------------------------- | ------------------------------- |
-| 1        | JavaScript Basics               | Modules                         |
-| -------- | ------------------------------- | ------------------------------- |
-| 2        | Numbers & Math                  | Testing                         |
-| -------- | ------------------------------- | ------------------------------- |
-| 3        | Strings                         | Objected-Oriented               |
-| -------- | ------------------------------- | ------------------------------- |
-| 4        | Variables                       | Backend                         |
-| -------- | ------------------------------- | ------------------------------- |
-| 5        | Booleans, If-Statements         | Callbacks                       |
-| -------- | ------------------------------- | ------------------------------- |
-| 6        | Functions                       | Promises                        |
-| -------- | ------------------------------- | ------------------------------- |
-| 7        | Objects & DOM                   | Async await                     |
-| -------- | ------------------------------- | ------------------------------- |
-| 8        | Arrays & Loops                  | -                               |
-| -------- | ------------------------------- | ------------------------------- |
-| 8        | JS w/ other Technologies such   |                                 |
-|          | as HTML & CSS                   | -                               |
-| -------- | ------------------------------- | ------------------------------- |
+| No  | Basic Features                | Advanced Features |
+| --- | ----------------------------- | ----------------- |
+| 1   | JavaScript Basics             | Modules           |
+| 2   | Numbers & Math                | Testing           |
+| 3   | Strings                       | Object-Oriented   |
+| 4   | Variables                     | Backend           |
+| 5   | Booleans, If-Statements       | Callbacks         |
+| 6   | Functions                     | Promises          |
+| 7   | Objects & DOM                 | Async/Await       |
+| 8   | Arrays & Loops                | -                 |
+| 9   | JS w/ other Technologies such | -                 |
+|     | as HTML & CSS                 |                   |
 
 ## JAVASCRIPT BASICS
 
@@ -94,13 +85,62 @@
    let income = 200;
    const current;
 
-   current = balance - lunch - dinner + income;
+   current = (balance - lunch - dinner) + income;
    console.log(current);
 
    //challenge 3
 
    document.body.innerHTML = "";
 
+```
+
+## NUMBERS & MATH
+
+### Math Operators
+
+1. Addition (+)
+2. Subtraction (-)
+3. Multiplication (\*)
+4. Division (/)
+
+```
+   let addition = 8 + 6;
+   let subtraction = 8 - 6;
+   let multiply = 8 * 6;
+   let divide = 8 / 6;
+
+   console.log("-------- Mathematics -------");
+   console.log("1. The sum of 8 + 6 : ", addition);
+   console.log("2. The sum of 8 - 6 : ", subtraction);
+   console.log("3. The sum of 8 * 6 : ", multiply);
+   console.log("4. The sum of 8 / 6 : ", divide);
+
+   //calculating cost of product
+   let socks = 10.9;
+   let skQty = 2;
+   let skPrice;
+
+   //basket ball
+   let bb = 20.95;
+   let shipping = 4.99;
+   let totalAmt;
+
+   skPrice = socks * skQty;
+   totalAmt = socks * skQty + (bb + shipping);
+   console.log("---------- Cost of Products ----------");
+   console.log("The total cost of socks : $", skPrice.toFixed(2));
+   console.log("The total cost : $", totalAmt.toFixed(2));
+
+
+```
+
+### The Order of Operations
+
+- Addition, subtracting, multiplying, and dividing are called operations.
+- Multiplication and division are done first
+
+```
+   1 + 1 * 3 = 4
 ```
 
 ## NOTES
